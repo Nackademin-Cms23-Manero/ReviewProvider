@@ -3,5 +3,5 @@
 public class RatingEntity
 {
     public int Id { get; set; }
-    public int StarRatiing { get; set; }
+    public int StarRating { get; set; }
 }

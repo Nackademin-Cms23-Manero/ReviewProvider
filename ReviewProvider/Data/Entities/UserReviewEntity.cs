@@ -6,6 +6,5 @@ public class UserReviewEntity
     public string ProductId { get; set; } = null!;
     public int RatingId { get; set; }
     public RatingEntity Rating { get; set; } = null!;
-    public int? ReviewId { get; set; }
-    public ReviewEntity? Review { get; set; }
+    public string? Comment { get; set; }
 }

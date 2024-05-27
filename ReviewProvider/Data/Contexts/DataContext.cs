@@ -11,7 +11,6 @@ public class DataContext : DbContext
 
     public DbSet<UserReviewEntity> UserReviews { get; set; }
     public DbSet<RatingEntity> Ratings { get; set; }
-    public DbSet<ReviewEntity> Reviews { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
