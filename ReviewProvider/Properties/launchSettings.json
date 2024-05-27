@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ReviewProvider": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7068",
+      "launchBrowser": false
+    }
+  }
+}
